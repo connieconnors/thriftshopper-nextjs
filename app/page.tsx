@@ -12,33 +12,39 @@ export default function HomePage() {
       {/* Header */}
       <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="max-w-7xl mx-auto flex h-16 items-center justify-between px-4 md:px-6 lg:px-8">
-          <div className="flex flex-col ml-8">
-            <h1 className="text-2xl font-serif font-bold" style={{ color: "#000080" }}>
+          <div className="flex flex-col ml-2 md:ml-8 min-w-0 flex-1">
+            <h1 className="text-lg md:text-2xl font-serif font-bold truncate" style={{ color: "#000080" }}>
               ThriftShopper AI
             </h1>
-            <p className="text-xs font-sans" style={{ color: "#DAA520" }}>
+            <p className="text-xs font-sans hidden sm:block" style={{ color: "#DAA520" }}>
               the magic of predictive discovery
             </p>
           </div>
-          <div className="flex items-center gap-4">
-            <Button variant="default" onClick={() => window.open(airtableFormUrl, "_blank")}>
-              Join the Network
+          <div className="flex items-center gap-2 md:gap-4 flex-shrink-0">
+            <Button
+              variant="default"
+              size="sm"
+              className="text-sm md:text-base px-3 md:px-4"
+              onClick={() => window.open(airtableFormUrl, "_blank")}
+            >
+              <span className="hidden sm:inline">Join the Network</span>
+              <span className="sm:hidden">Join</span>
             </Button>
           </div>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="py-11 px-4">
+      <section className="py-8 md:py-11 px-4">
         <div className="container mx-auto text-center">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-6xl md:text-7xl font-serif font-bold mb-6" style={{ color: "#000080" }}>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6" style={{ color: "#000080" }}>
               ThriftShopper AI
             </h1>
-            <p className="text-4xl font-serif mb-8" style={{ color: "#DAA520" }}>
+            <p className="text-2xl md:text-4xl font-serif mb-8" style={{ color: "#DAA520" }}>
               the magic of predictive discovery
             </p>
-            <h2 className="text-2xl md:text-3xl font-sans text-foreground mb-8">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-sans text-foreground mb-8">
               Coming Soon: AI-Powered Thrift Marketplace
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
