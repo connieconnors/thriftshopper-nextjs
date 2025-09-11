@@ -11,8 +11,8 @@ export default function HomePage() {
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center justify-between px-20">
-          <div className="flex flex-col">
+        <div className="max-w-7xl mx-auto flex h-16 items-center justify-between px-4 md:px-6 lg:px-8">
+          <div className="flex flex-col ml-4">
             <h1 className="text-2xl font-serif font-bold" style={{ color: "#000080" }}>
               ThriftShopper AI
             </h1>
@@ -96,7 +96,7 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="border-t py-12">
-        <div className="container mx-auto px-20">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="flex flex-col items-center md:items-start">
               <img src="/thriftshopper-logo.png" alt="ThriftShopper Logo" className="h-32 w-auto mb-4" />
