@@ -112,23 +112,28 @@ export default function HomePage() {
               <h3 className="font-serif font-semibold mb-4">About</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
-                  <a href="#" className="hover:text-foreground">
+                  <a href="/privacy" className="hover:text-foreground">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-foreground">
+                  <a href="/terms" className="hover:text-foreground">
                     Terms of Service
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-foreground">
-                    Contact
                   </a>
                 </li>
               </ul>
             </div>
-            <div></div>
+            <div className="text-left">
+              <h3 className="font-serif font-semibold mb-4">Contact</h3>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li>Connie Connors</li>
+                <li>
+                  <a href="mailto:connie@thriftshopper.ai" className="hover:text-foreground">
+                    connie@thriftshopper.ai
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
             <p>&copy; 2024 ThriftShopper AI. All rights reserved.</p>
