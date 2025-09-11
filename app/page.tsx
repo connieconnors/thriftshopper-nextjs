@@ -125,14 +125,17 @@ export default function HomePage() {
             </div>
             <div className="text-left">
               <h3 className="font-serif font-semibold mb-4">Contact</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>Connie Connors</li>
-                <li>
-                  <a href="mailto:connie@thriftshopper.ai" className="hover:text-foreground">
-                    connie@thriftshopper.ai
-                  </a>
-                </li>
-              </ul>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => {
+                  const contactFormUrl = process.env.NEXT_PUBLIC_CONTACT_FORM_URL || "#"
+                  window.open(contactFormUrl, "_blank")
+                }}
+                className="hover:bg-primary hover:text-primary-foreground"
+              >
+                Contact Us
+              </Button>
             </div>
           </div>
           <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
