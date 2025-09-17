@@ -130,3 +130,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom button gradient override to fix contrast issue */
+@layer components {
+  .gradient-button {
+    background: linear-gradient(135deg, #ef4444 0%, #ea580c 100%) !important;
+    background-image: linear-gradient(135deg, #ef4444 0%, #ea580c 100%) !important;
+  }
+}

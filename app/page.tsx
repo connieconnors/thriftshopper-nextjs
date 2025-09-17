@@ -59,16 +59,12 @@ export default function ThriftShopperDemo() {
                     className="w-64 text-lg p-3"
                   />
                 </div>
-                <button
+                <div
                   onClick={runAnalysis}
-                  className="text-white font-semibold text-lg px-10 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 cursor-pointer"
-                  style={{
-                    background: "linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%)",
-                    border: "none",
-                  }}
+                  className="inline-block gradient-button text-white font-semibold text-lg px-10 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 cursor-pointer"
                 >
                   🔍 Analyze Market Intelligence
-                </button>
+                </div>
               </CardContent>
             </Card>
           )}

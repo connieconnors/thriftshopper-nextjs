@@ -41,7 +41,7 @@ export function StoreAnalysisCard({ storeName }: StoreAnalysisCardProps) {
 
   return (
     <Card className="shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
-      <CardHeader className="bg-gradient-to-r from-[#feca57] to-[#ff9ff3] text-white p-5 rounded-t-lg">
+      <CardHeader style={{ backgroundColor: "#000080" }} className="text-white p-5 rounded-t-lg">
         <h3 className="font-sans text-xl font-semibold">📸 Store Intelligence</h3>
       </CardHeader>
       <CardContent className="p-6">
