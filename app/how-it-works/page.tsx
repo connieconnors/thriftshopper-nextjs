@@ -153,14 +153,6 @@ export default function HowItWorksPage() {
                 specific, actionable alerts that highlight arbitrage opportunities.
               </p>
 
-              <div className="bg-accent/10 border border-accent/20 p-6 rounded-lg mb-4">
-                <h3 className="font-semibold mb-2">Sample Alert:</h3>
-                <p className="italic text-foreground font-medium">
-                  "PRIORITY: Yankees memorabilia showing 200% eBay demand spike, 80% supply drop. Nassau County estate
-                  sales this weekend. Predicted ROI: 300-500%"
-                </p>
-              </div>
-
               <p className="mb-4">
                 This means the system can identify when an item, like a Yankees bobblehead, sells for a certain price on
                 another platform, note the lack of current listings, and observe high buyer interest, then signal to
