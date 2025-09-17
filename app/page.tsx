@@ -101,45 +101,36 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t py-12">
+      <footer className="bg-[#000080] text-white py-12">
         <div className="max-w-7xl mx-auto px-[10px] md:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="flex flex-col items-center md:items-start ml-8">
-              <img src="/thriftshopper-logo.png" alt="ThriftShopper Logo" className="h-32 w-auto mb-4" />
-              <p className="text-sm text-muted-foreground text-center">Coming Soon</p>
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div className="mb-6 md:mb-0">
+              <h3 className="text-2xl font-serif font-bold mb-2">ThriftShopper AI</h3>
+              <p className="text-sm opacity-90">the magic of predictive discovery</p>
             </div>
-            <div className="text-left">
-              <h3 className="font-serif font-semibold mb-4">About</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>
-                  <a href="/privacy" className="hover:text-foreground">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a href="/terms" className="hover:text-foreground">
-                    Terms of Service
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="text-left">
-              <h3 className="font-serif font-semibold mb-4">Contact</h3>
-              <Button
-                variant="outline"
-                size="sm"
+            <div className="flex flex-wrap gap-6 text-sm">
+              <a href="/about" className="hover:opacity-80 transition-opacity">
+                About
+              </a>
+              <button
                 onClick={() => {
                   const contactFormUrl = process.env.NEXT_PUBLIC_CONTACT_FORM_URL || "#"
                   window.open(contactFormUrl, "_blank")
                 }}
-                className="hover:bg-primary hover:text-primary-foreground"
+                className="hover:opacity-80 transition-opacity cursor-pointer"
               >
-                Contact Us
-              </Button>
+                Contact
+              </button>
+              <a href="/privacy" className="hover:opacity-80 transition-opacity">
+                Privacy
+              </a>
+              <a href="/terms" className="hover:opacity-80 transition-opacity">
+                Terms
+              </a>
             </div>
           </div>
-          <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2025 ThriftShopper AI. All rights reserved.</p>
+          <div className="border-t border-white/20 mt-8 pt-8 text-center">
+            <p className="text-sm opacity-90">&copy; 2025 ThriftShopper AI. All rights reserved.</p>
           </div>
         </div>
       </footer>
