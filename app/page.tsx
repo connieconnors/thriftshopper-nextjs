@@ -110,7 +110,10 @@ export default function HomePage() {
             </div>
             <div className="flex flex-wrap gap-6 text-sm">
               <a href="/about" className="hover:opacity-80 transition-opacity">
-                About
+                About Us
+              </a>
+              <a href="/how-it-works" className="hover:opacity-80 transition-opacity">
+                How it Works
               </a>
               <button
                 onClick={() => {

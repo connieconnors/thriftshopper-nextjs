@@ -24,10 +24,14 @@ export default function AboutPage() {
       {/* About Content */}
       <div className="max-w-4xl mx-auto py-12 px-4">
         <h1 className="text-4xl font-serif font-bold mb-8" style={{ color: "#000080" }}>
-          Connie Connors
+          About Us
         </h1>
 
         <div className="prose prose-lg max-w-none">
+          <h2 className="text-2xl font-serif font-semibold mb-6" style={{ color: "#000080" }}>
+            Connie Connors
+          </h2>
+
           <div className="text-lg leading-relaxed space-y-6 text-foreground">
             <p>
               Connie Connors is a leader in global communications and business strategy. She manages her local church
