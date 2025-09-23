@@ -2,9 +2,9 @@
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Brain, Target, Zap } from "lucide-react"
+import { TrendingUp, Megaphone, CheckCircle } from "lucide-react"
 
-export default function HomePage() {
+export default function ForSellersPage() {
   const airtableFormUrl = process.env.NEXT_PUBLIC_AIRTABLE_FORM_URL || "#"
 
   return (
@@ -13,22 +13,18 @@ export default function HomePage() {
       <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="max-w-7xl mx-auto flex h-16 items-center justify-between px-[10px] md:px-6 lg:px-8">
           <div className="flex flex-col ml-2 md:ml-8 min-w-0 flex-1">
-            <h1 className="text-lg md:text-2xl font-serif font-bold truncate" style={{ color: "#000080" }}>
+            <a
+              href="/"
+              className="text-lg md:text-2xl font-serif font-bold truncate hover:opacity-80"
+              style={{ color: "#000080" }}
+            >
               ThriftShopper AI
-            </h1>
+            </a>
             <p className="text-xs font-sans hidden sm:block" style={{ color: "#DAA520" }}>
               the magic of predictive discovery
             </p>
           </div>
           <div className="flex items-center gap-2 md:gap-4 flex-shrink-0">
-            <Button
-              variant="outline"
-              size="sm"
-              className="text-sm md:text-base px-3 md:px-4 bg-transparent"
-              onClick={() => (window.location.href = "/for-sellers")}
-            >
-              For Sellers
-            </Button>
             <Button
               variant="outline"
               size="sm"
@@ -51,64 +47,64 @@ export default function HomePage() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-8 md:py-11 px-4">
+      <section className="py-16 md:py-24 px-4">
         <div className="container mx-auto text-center">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6" style={{ color: "#000080" }}>
-              ThriftShopper AI
+            <h1
+              className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 text-balance"
+              style={{ color: "#000080" }}
+            >
+              Sell Smarter.
+              <br />
+              Reach More Buyers.
+              <br />
+              Stress Less.
             </h1>
-            <p className="text-2xl md:text-4xl font-serif mb-8" style={{ color: "#DAA520" }}>
-              the magic of predictive discovery
+            <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto text-pretty">
+              ThriftShopper uses predictive AI and real-time data to help you sell faster and more profitably — while we
+              actively bring buyers to your items.
             </p>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-sans text-foreground mb-8">
-              Coming Soon: AI-Powered Thrift Marketplace
-            </h2>
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Be among the first to experience a revolutionary platform that connects buyers and sellers through
-              intelligent matching and predictive discovery.
+            <Button size="lg" className="text-lg px-8 py-6 mb-8" onClick={() => window.open(airtableFormUrl, "_blank")}>
+              Start Selling Smarter
+            </Button>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              ThriftShopper takes the guesswork out of selling. We analyze demand, pricing trends, and buyer behavior in
+              real time — so you know exactly what to list and at what price. And we don't just wait for buyers to show
+              up — we actively recruit them and make it easy for them to discover treasures they'll love. That means
+              faster sales, better prices, and less work for you.
             </p>
-            <div className="flex flex-col items-center gap-4">
-              <Button size="lg" className="text-lg px-8 py-6" onClick={() => window.open(airtableFormUrl, "_blank")}>
-                Join the Network
-              </Button>
-              <p className="text-sm text-muted-foreground">*It's free to join</p>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* How It Works */}
-      <section className="py-11 px-4 bg-muted/30">
+      {/* Three Key Benefits */}
+      <section className="py-16 px-4 bg-muted/30">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-serif font-bold text-center mb-8">How ThriftShopper Works</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card>
               <CardContent className="p-8 text-center">
-                <Target className="w-12 h-12 mx-auto mb-4 text-primary" />
-                <h3 className="text-xl font-serif font-semibold mb-4">Smart Matching</h3>
+                <TrendingUp className="w-16 h-16 mx-auto mb-6" style={{ color: "#000080" }} />
+                <h3 className="text-xl font-serif font-semibold mb-4">Smart Pricing & Demand Insights</h3>
                 <p className="text-muted-foreground">
-                  Our AI connects buyers with sellers based on preferences, location, and behavioral patterns for
-                  perfect matches.
+                  We analyze real-time data to help you know what to list and at what price.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-8 text-center">
-                <Zap className="w-12 h-12 mx-auto mb-4 text-accent" />
-                <h3 className="text-xl font-serif font-semibold mb-4">Perfect Discoveries</h3>
+                <Megaphone className="w-16 h-16 mx-auto mb-6" style={{ color: "#000080" }} />
+                <h3 className="text-xl font-serif font-semibold mb-4">Active Buyer Recruitment</h3>
                 <p className="text-muted-foreground">
-                  Get personalized notifications how and when you want about items that match your style and surprise
-                  you on occasion.
+                  We attract and engage buyers who are looking for exactly what you sell.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-8 text-center">
-                <Brain className="w-12 h-12 mx-auto mb-4 text-primary" />
-                <h3 className="text-xl font-serif font-semibold mb-4">AI Learning</h3>
+                <CheckCircle className="w-16 h-16 mx-auto mb-6" style={{ color: "#000080" }} />
+                <h3 className="text-xl font-serif font-semibold mb-4">Effortless Selling</h3>
                 <p className="text-muted-foreground">
-                  Our multi-agent system utilizes information about browsing patterns, predicts when and how items are
-                  bought or sold and uncovers both the most unusual finds.
+                  Our system matches your items to the right people, so you can sell faster with less work.
                 </p>
               </CardContent>
             </Card>
