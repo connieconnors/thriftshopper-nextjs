@@ -37,13 +37,12 @@ export default function HomePage() {
               For Buyers
             </Button>
             <Button
-              variant="default"
+              variant="outline"
               size="sm"
-              className="text-sm md:text-base px-3 md:px-4"
-              onClick={() => window.open(airtableFormUrl, "_blank")}
+              className="text-sm md:text-base px-3 md:px-4 bg-transparent"
+              onClick={() => (window.location.href = "/our-story")}
             >
-              <span className="hidden sm:inline">Join the Network</span>
-              <span className="sm:hidden">Join</span>
+              Our Story
             </Button>
           </div>
         </div>
