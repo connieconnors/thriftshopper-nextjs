@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { TrendingUp, Megaphone, CheckCircle } from "lucide-react"
 
 export default function ForSellersPage() {
   const airtableFormUrl = process.env.NEXT_PUBLIC_AIRTABLE_FORM_URL || "#"
@@ -83,7 +82,16 @@ export default function ForSellersPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card>
               <CardContent className="p-8 text-center">
-                <TrendingUp className="w-16 h-16 mx-auto mb-6" style={{ color: "#000080" }} />
+                <svg
+                  className="w-16 h-16 mx-auto mb-6"
+                  style={{ color: "#000080" }}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <polyline points="23,6 13.5,15.5 8.5,10.5 1,18" />
+                  <polyline points="17,6 23,6 23,12" />
+                </svg>
                 <h3 className="text-xl font-serif font-semibold mb-4">Smart Pricing & Demand Insights</h3>
                 <p className="text-muted-foreground">
                   We analyze real-time data to help you know what to list and at what price.
@@ -92,7 +100,16 @@ export default function ForSellersPage() {
             </Card>
             <Card>
               <CardContent className="p-8 text-center">
-                <Megaphone className="w-16 h-16 mx-auto mb-6" style={{ color: "#000080" }} />
+                <svg
+                  className="w-16 h-16 mx-auto mb-6"
+                  style={{ color: "#000080" }}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="m3 11 18-5v12L3 14v-3z" />
+                  <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6" />
+                </svg>
                 <h3 className="text-xl font-serif font-semibold mb-4">Active Buyer Recruitment</h3>
                 <p className="text-muted-foreground">
                   We attract and engage buyers who are looking for exactly what you sell.
@@ -101,7 +118,16 @@ export default function ForSellersPage() {
             </Card>
             <Card>
               <CardContent className="p-8 text-center">
-                <CheckCircle className="w-16 h-16 mx-auto mb-6" style={{ color: "#000080" }} />
+                <svg
+                  className="w-16 h-16 mx-auto mb-6"
+                  style={{ color: "#000080" }}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                  <polyline points="22,4 12,14.01 9,11.01" />
+                </svg>
                 <h3 className="text-xl font-serif font-semibold mb-4">Effortless Selling</h3>
                 <p className="text-muted-foreground">
                   Our system matches your items to the right people, so you can sell faster with less work.

@@ -1,7 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Merriweather as Meriweather, Source_Sans_3 } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import Script from "next/script"
 import "./globals.css"
@@ -51,7 +50,6 @@ export default function RootLayout({
       </head>
       <body className="font-sans">
         <Suspense fallback={null}>{children}</Suspense>
-        <Analytics />
       </body>
     </html>
   )

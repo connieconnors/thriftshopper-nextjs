@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Brain, Target, Zap } from "lucide-react"
 
 export default function HomePage() {
   const airtableFormUrl = process.env.NEXT_PUBLIC_AIRTABLE_FORM_URL || "#"
@@ -84,7 +83,16 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card>
               <CardContent className="p-8 text-center">
-                <Target className="w-12 h-12 mx-auto mb-4 text-primary" />
+                <svg
+                  className="w-12 h-12 mx-auto mb-4 text-primary"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <circle cx="12" cy="12" r="6" />
+                  <circle cx="12" cy="12" r="2" />
+                </svg>
                 <h3 className="text-xl font-serif font-semibold mb-4">Smart Matching</h3>
                 <p className="text-muted-foreground">
                   Our AI connects buyers with sellers based on preferences, location, and behavioral patterns for
@@ -94,7 +102,14 @@ export default function HomePage() {
             </Card>
             <Card>
               <CardContent className="p-8 text-center">
-                <Zap className="w-12 h-12 mx-auto mb-4 text-accent" />
+                <svg
+                  className="w-12 h-12 mx-auto mb-4 text-accent"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2" />
+                </svg>
                 <h3 className="text-xl font-serif font-semibold mb-4">Perfect Discoveries</h3>
                 <p className="text-muted-foreground">
                   Get personalized notifications how and when you want about items that match your style and surprise
@@ -104,7 +119,15 @@ export default function HomePage() {
             </Card>
             <Card>
               <CardContent className="p-8 text-center">
-                <Brain className="w-12 h-12 mx-auto mb-4 text-primary" />
+                <svg
+                  className="w-12 h-12 mx-auto mb-4 text-primary"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z" />
+                  <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z" />
+                </svg>
                 <h3 className="text-xl font-serif font-semibold mb-4">AI Learning</h3>
                 <p className="text-muted-foreground">
                   Our multi-agent system utilizes information about browsing patterns, predicts when and how items are
