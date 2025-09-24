@@ -63,6 +63,10 @@ export default function ForSellersPage() {
         style={{ background: "linear-gradient(135deg, #000080 0%, #4169E1 100%)" }}
       >
         <div className="container mx-auto text-center text-white">
+          <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-2 inline-block mb-8">
+            <p className="text-sm font-medium">Currently in beta development - Join the waitlist for early access</p>
+          </div>
+
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 text-balance leading-tight">
               Stop Researching.
@@ -183,7 +187,7 @@ export default function ForSellersPage() {
                       </div>
 
                       <Button className="w-full text-lg py-6 bg-accent hover:bg-accent/90" onClick={showSignup}>
-                        🚀 Get Early Access - List This Item
+                        🚀 Get Early Access When We Launch - List This Item
                       </Button>
                     </div>
                   )}
@@ -246,17 +250,16 @@ export default function ForSellersPage() {
       <section className="py-16 px-4">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-12" style={{ color: "#000080" }}>
-            Real Sellers, Real Results
+            What Our Beta Sellers Want
           </h2>
 
           <Card className="max-w-4xl mx-auto mb-16" style={{ background: "linear-gradient(135deg, #000080, #4169E1)" }}>
             <CardContent className="p-8 text-white">
               <p className="text-xl md:text-2xl italic mb-6 leading-relaxed">
-                "I used to spend 2 hours listing each vintage piece - researching, writing descriptions, guessing at
-                prices. Now it takes 5 minutes and I'm making 60% more per item. ThriftShopper found buyers I never
-                would have reached."
+                "I want to spend 5 minutes instead of 2 hours per listing, while making 60% more per item. I want AI to
+                handle the research and pricing so I can focus on finding great items."
               </p>
-              <p className="font-semibold opacity-90">— Sarah M., Portland Vintage Dealer</p>
+              <p className="font-semibold opacity-90">— Early Beta Seller</p>
             </CardContent>
           </Card>
 
@@ -298,7 +301,7 @@ export default function ForSellersPage() {
             className="bg-white text-accent hover:bg-gray-100 text-xl px-12 py-6 rounded-full font-bold transition-transform hover:scale-105"
             onClick={showSignup}
           >
-            Get Early Access - It's Free
+            Get Early Access When We Launch - It's Free
           </Button>
           <p className="mt-6 opacity-80">No spam, ever. Just updates on launch date and early access.</p>
         </div>
