@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${meriweather.variable} ${sourceSans.variable} antialiased`}>
-      <head>
+      <body className="font-sans">
         {process.env.NEXT_PUBLIC_GA_ID && (
           <>
             <Script
@@ -47,8 +47,6 @@ export default function RootLayout({
             </Script>
           </>
         )}
-      </head>
-      <body className="font-sans">
         <Suspense fallback={null}>{children}</Suspense>
       </body>
     </html>
