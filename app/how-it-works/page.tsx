@@ -12,7 +12,7 @@ export default function HowItWorksPage() {
               className="text-lg md:text-2xl font-serif font-bold truncate hover:opacity-80"
               style={{ color: "#000080" }}
             >
-              ThriftShopper AI
+              ThriftShopper
             </a>
             <p className="text-xs font-sans hidden sm:block" style={{ color: "#DAA520" }}>
               the magic of predictive discovery
@@ -24,29 +24,44 @@ export default function HowItWorksPage() {
       {/* How It Works Content */}
       <div className="max-w-6xl mx-auto py-12 px-4">
         <h1 className="text-4xl font-serif font-bold mb-8 text-center" style={{ color: "#000080" }}>
-          How ThriftShopper AI Works
+          Why & How it Works
         </h1>
 
         <div className="prose prose-lg max-w-none">
           <div className="text-lg leading-relaxed space-y-8 text-foreground">
-            <div className="bg-muted/30 p-6 rounded-lg">
-              <p className="text-xl font-semibold mb-4">
-                ThriftShopper is designed to make an immediate impact as a predictive AI marketplace and, crucially, a
-                market intelligence platform that drives arbitrage opportunities.
-              </p>
-            </div>
-
             <div>
               <h2 className="text-2xl font-serif font-semibold mb-4" style={{ color: "#000080" }}>
                 Overview
               </h2>
-              <p>
-                ThriftShopper AI is a predictive matching platform that addresses the problem of uncurated inventory and
-                buyer confusion in the resale market. It intelligently matches sellers of pre-loved items with targeted
-                buyers, not solely based on the specific item, but also on optimal timing. This predictive matching
-                engine connects sellers' unique items with buyers' latest needs through advanced algorithms, surfacing
-                the right match at the opportune moment to create liquidity where traditional marketplaces fall short.
-              </p>
+              <ul
+                className="space-y-4 text-base mx-5 list-disc list-inside"
+                style={{ paddingLeft: "20px", paddingRight: "20px" }}
+              >
+                <li className="pl-2">
+                  Sellers pay high fees (often 20-25% in commissions and promotion costs) just to get listings seen, and
+                  still wait weeks for sales.
+                </li>
+                <li className="pl-2">
+                  Discoverability is poor; buyers must scroll endlessly through misclassified or irrelevant products,
+                  and great inventory gets buried or missed.
+                </li>
+                <li className="pl-2">
+                  Fraud and scams have increased, especially on major platforms, making sellers feel unprotected and
+                  buyers uncertain about authenticity.
+                </li>
+                <li className="pl-2">
+                  Large-scale platforms often prioritize advertising or paid promotions over truly connecting buyers
+                  with the right items, frustrating users who want a joyful, seamless experience instead of ads.
+                </li>
+                <li className="pl-2">
+                  Even profitable resale giants face huge challenges: niche players succeed but broad p2p and
+                  brand-agnostic models struggle with operational inefficiency, poor trust, and weak margins.
+                </li>
+                <li className="pl-2">
+                  Sellers are forced to guess pricing, and often end up losing margin—or build up "death piles" of
+                  unsold inventory that become sunk costs.
+                </li>
+              </ul>
             </div>
 
             <div>

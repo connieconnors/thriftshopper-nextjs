@@ -14,7 +14,7 @@ export default function OurStoryPage() {
               className="text-lg md:text-2xl font-serif font-bold truncate hover:opacity-80"
               style={{ color: "#000080" }}
             >
-              ThriftShopper AI
+              ThriftShopper
             </a>
             <p className="text-xs font-sans hidden sm:block" style={{ color: "#DAA520" }}>
               the magic of predictive discovery
@@ -72,7 +72,7 @@ export default function OurStoryPage() {
         <div className="max-w-7xl mx-auto px-[10px] md:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="mb-6 md:mb-0">
-              <h3 className="text-2xl font-serif font-bold mb-2">ThriftShopper AI</h3>
+              <h3 className="text-2xl font-serif font-bold mb-2">ThriftShopper</h3>
               <p className="text-sm opacity-90">the magic of predictive discovery</p>
             </div>
             <div className="flex flex-wrap gap-6 text-sm">
@@ -80,7 +80,7 @@ export default function OurStoryPage() {
                 About Us
               </a>
               <a href="/how-it-works" className="hover:opacity-80 transition-opacity">
-                How it Works
+                Why & How it Works
               </a>
               <button
                 onClick={() => {
@@ -100,7 +100,7 @@ export default function OurStoryPage() {
             </div>
           </div>
           <div className="border-t border-white/20 mt-8 pt-8 text-center">
-            <p className="text-sm opacity-90">&copy; 2025 ThriftShopper AI. All rights reserved.</p>
+            <p className="text-sm opacity-90">&copy; 2025 ThriftShopper. All rights reserved.</p>
           </div>
         </div>
       </footer>

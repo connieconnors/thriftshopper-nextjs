@@ -148,7 +148,7 @@ export default function HomePage() {
                 About Us
               </a>
               <a href="/how-it-works" className="hover:opacity-80 transition-opacity">
-                How it Works
+                Why & How it Works
               </a>
               <button
                 onClick={() => {
