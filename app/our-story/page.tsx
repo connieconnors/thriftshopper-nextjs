@@ -64,6 +64,36 @@ export default function OurStoryPage() {
               stories waiting to be written.
             </p>
           </div>
+
+          <div className="mt-16">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-8" style={{ color: "#000080" }}>
+              Connie's Why
+            </h2>
+
+            <div className="prose prose-lg md:prose-xl mx-auto">
+              <div className="text-left space-y-6">
+                <p className="text-lg md:text-xl font-sans leading-relaxed text-foreground">
+                  <strong>Why Me</strong>
+                </p>
+                <p className="text-lg md:text-xl font-sans leading-relaxed text-foreground">
+                  My love for secondhand started in 2006 when my youngest son asked me to sell his old cleats on eBay.
+                  When they sold, I was so excited that I called his school so he could hear the news right away. Soon
+                  he had me selling all my Barbies, and I discovered how much I loved finding the right buyer for the
+                  right item.
+                </p>
+                <p className="text-lg md:text-xl font-sans leading-relaxed text-foreground">
+                  Years later, after moving to a small town during Covid, I began volunteering at my church thrift shop.
+                  I saw patterns everywhere — the kinds of donations that came in, what sold right away, and how payday
+                  weeks, moves, and even local news shaped what people bought.
+                </p>
+                <p className="text-lg md:text-xl font-sans leading-relaxed text-foreground">
+                  For me, every item carries a story, and every sale connects people in unexpected ways. ThriftShopper
+                  grew out of that — a way to make those connections easier, to help people find what they love, and to
+                  give every good thing a second life.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
