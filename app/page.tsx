@@ -13,7 +13,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto flex h-16 items-center justify-between px-[10px] md:px-6 lg:px-8">
           <div className="flex flex-col ml-2 md:ml-8 min-w-0 flex-1">
             <h1 className="text-lg md:text-2xl font-serif font-bold truncate" style={{ color: "#000080" }}>
-              ThriftShopper AI
+              ThriftShopper
             </h1>
             <p className="text-xs font-sans hidden sm:block" style={{ color: "#DAA520" }}>
               the magic of predictive discovery
@@ -53,14 +53,11 @@ export default function HomePage() {
         <div className="container mx-auto text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6" style={{ color: "#000080" }}>
-              ThriftShopper AI
+              ThriftShopper
             </h1>
             <p className="text-2xl md:text-4xl font-serif mb-8" style={{ color: "#DAA520" }}>
               the magic of predictive discovery
             </p>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-sans text-foreground mb-8">
-              Coming Soon: AI-Powered Thrift Marketplace
-            </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               Be among the first to experience a revolutionary platform that connects buyers and sellers through
               intelligent matching and predictive discovery.
@@ -143,7 +140,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-[10px] md:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="mb-6 md:mb-0">
-              <h3 className="text-2xl font-serif font-bold mb-2">ThriftShopper AI</h3>
+              <h3 className="text-2xl font-serif font-bold mb-2">ThriftShopper</h3>
               <p className="text-sm opacity-90">the magic of predictive discovery</p>
             </div>
             <div className="flex flex-wrap gap-6 text-sm">
@@ -171,7 +168,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-white/20 mt-8 pt-8 text-center">
-            <p className="text-sm opacity-90">&copy; 2025 ThriftShopper AI. All rights reserved.</p>
+            <p className="text-sm opacity-90">&copy; 2025 ThriftShopper. All rights reserved.</p>
           </div>
         </div>
       </footer>

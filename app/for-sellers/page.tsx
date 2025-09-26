@@ -76,8 +76,8 @@ export default function ForSellersPage() {
               Just Take a Photo.
             </h1>
             <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto text-pretty opacity-95">
-              ThriftShopper instantly identifies your items, researches market prices, writes listings, and finds buyers
-              already looking for exactly what you have.
+              ThriftShopper's AI instantly identifies your items, researches market prices, writes listings, and finds
+              buyers already looking for exactly what you have.
             </p>
           </div>
         </div>
