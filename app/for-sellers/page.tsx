@@ -30,7 +30,7 @@ export default function ForSellersPage() {
               className="text-lg md:text-2xl font-serif font-bold truncate hover:opacity-80"
               style={{ color: "#000080" }}
             >
-              ThriftShopper AI
+              ThriftShopper
             </a>
             <p className="text-xs font-sans hidden sm:block" style={{ color: "#DAA520" }}>
               the magic of predictive discovery
@@ -294,7 +294,7 @@ export default function ForSellersPage() {
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Ready to Sell Smarter?</h2>
           <p className="text-xl opacity-90 max-w-3xl mx-auto mb-8">
-            Join the waitlist and be among the first sellers to experience AI-powered listing and buyer matching.
+            Coming Soon: Be Among the first sellers to experience AI-powered listing and buyer matching.
           </p>
           <Button
             size="lg"
@@ -340,7 +340,7 @@ export default function ForSellersPage() {
             </div>
           </div>
           <div className="border-t border-white/20 mt-8 pt-8 text-center">
-            <p className="text-sm opacity-90">&copy; 2025 ThriftShopper AI. All rights reserved.</p>
+            <p className="text-sm opacity-90">&copy; 2025 ThriftShopper. All rights reserved.</p>
           </div>
         </div>
       </footer>
