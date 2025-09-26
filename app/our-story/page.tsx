@@ -67,14 +67,11 @@ export default function OurStoryPage() {
 
           <div className="mt-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold mb-8" style={{ color: "#000080" }}>
-              Connie's Why
+              Founder Connie's Why
             </h2>
 
             <div className="prose prose-lg md:prose-xl mx-auto">
               <div className="text-left space-y-6">
-                <p className="text-lg md:text-xl font-sans leading-relaxed text-foreground">
-                  <strong>Why Me</strong>
-                </p>
                 <p className="text-lg md:text-xl font-sans leading-relaxed text-foreground">
                   My love for secondhand started in 2006 when my youngest son asked me to sell his old cleats on eBay.
                   When they sold, I was so excited that I called his school so he could hear the news right away. Soon
