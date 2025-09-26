@@ -76,8 +76,8 @@ export default function ForSellersPage() {
               Just Take a Photo.
             </h1>
             <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto text-pretty opacity-95">
-              ThriftShopper's AI instantly identifies your items, researches market prices, writes listings, and finds
-              buyers already looking for exactly what you have.
+              ThriftShopper instantly identifies your items, researches market prices, writes listings, and finds buyers
+              already looking for exactly what you have.
             </p>
           </div>
         </div>
@@ -312,7 +312,7 @@ export default function ForSellersPage() {
         <div className="max-w-7xl mx-auto px-[10px] md:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="mb-6 md:mb-0">
-              <h3 className="text-2xl font-serif font-bold mb-2">ThriftShopper AI</h3>
+              <h3 className="text-2xl font-serif font-bold mb-2">ThriftShopper</h3>
               <p className="text-sm opacity-90">the magic of predictive discovery</p>
             </div>
             <div className="flex flex-wrap gap-6 text-sm">
