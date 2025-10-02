@@ -18,7 +18,7 @@ const sourceSans = Source_Sans_3({
 })
 
 export const metadata: Metadata = {
-  title: "ThriftShopper AI - The Magic of Predictive Discovery",
+  title: "ThriftShopper AI - The Magic of Discovery™",
   description: "AI-powered thrift marketplace connecting buyers and sellers through predictive matching",
   generator: "v0.app",
 }

@@ -33,7 +33,7 @@ export default function ForSellersPage() {
               ThriftShopper
             </a>
             <p className="text-xs font-sans hidden sm:block" style={{ color: "#DAA520" }}>
-              the magic of predictive discovery
+              the magic of discovery™
             </p>
           </div>
           <div className="flex items-center gap-2 md:gap-4 flex-shrink-0">
@@ -313,7 +313,7 @@ export default function ForSellersPage() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="mb-6 md:mb-0">
               <h3 className="text-2xl font-serif font-bold mb-2">ThriftShopper</h3>
-              <p className="text-sm opacity-90">the magic of predictive discovery</p>
+              <p className="text-sm opacity-90">the magic of discovery™</p>
             </div>
             <div className="flex flex-wrap gap-6 text-sm">
               <a href="/about" className="hover:opacity-80 transition-opacity">

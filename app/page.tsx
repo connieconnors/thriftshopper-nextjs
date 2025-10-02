@@ -16,7 +16,7 @@ export default function HomePage() {
               ThriftShopper
             </h1>
             <p className="text-xs font-sans hidden sm:block" style={{ color: "#DAA520" }}>
-              the magic of predictive discovery
+              the magic of discovery™
             </p>
           </div>
           <div className="flex items-center gap-2 md:gap-4 flex-shrink-0">
@@ -55,8 +55,8 @@ export default function HomePage() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6" style={{ color: "#000080" }}>
               ThriftShopper
             </h1>
-            <p className="text-2xl md:text-4xl font-serif mb-8" style={{ color: "#DAA520" }}>
-              the magic of predictive discovery
+            <p className="text-xl md:text-3xl font-serif italic mb-8 tracking-tight" style={{ color: "#DAA520" }}>
+              the magic of discovery<span className="text-xs md:text-sm align-super">™</span>
             </p>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               Be among the first to experience a revolutionary platform that connects buyers and sellers through
@@ -141,7 +141,7 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="mb-6 md:mb-0">
               <h3 className="text-2xl font-serif font-bold mb-2">ThriftShopper</h3>
-              <p className="text-sm opacity-90">the magic of predictive discovery</p>
+              <p className="text-sm opacity-90">the magic of discovery™</p>
             </div>
             <div className="flex flex-wrap gap-6 text-sm">
               <a href="/about" className="hover:opacity-80 transition-opacity">

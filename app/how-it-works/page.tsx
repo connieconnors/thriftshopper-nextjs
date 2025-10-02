@@ -15,7 +15,7 @@ export default function HowItWorksPage() {
               ThriftShopper
             </a>
             <p className="text-xs font-sans hidden sm:block" style={{ color: "#DAA520" }}>
-              the magic of predictive discovery
+              the magic of discovery™
             </p>
           </div>
         </div>
