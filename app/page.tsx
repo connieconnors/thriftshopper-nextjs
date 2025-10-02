@@ -52,10 +52,10 @@ export default function HomePage() {
       <section className="py-8 md:py-11 px-4">
         <div className="container mx-auto text-center">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6" style={{ color: "#000080" }}>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-2" style={{ color: "#000080" }}>
               ThriftShopper
             </h1>
-            <p className="text-xl md:text-3xl font-serif italic mb-8 tracking-tight" style={{ color: "#DAA520" }}>
+            <p className="text-lg md:text-2xl font-serif italic mb-8 tracking-tight" style={{ color: "#DAA520" }}>
               the magic of discovery<span className="text-xs md:text-sm align-super">™</span>
             </p>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
