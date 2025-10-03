@@ -72,8 +72,6 @@ export default function ForSellersPage() {
               Stop Researching.
               <br />
               Stop Guessing.
-              <br />
-              Just Take a Photo.
             </h1>
             <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto text-pretty opacity-95">
               ThriftShopper's AI instantly identifies your items, researches market prices, writes listings, and finds
@@ -291,19 +289,21 @@ export default function ForSellersPage() {
         className="py-16 px-4 text-center text-white"
         style={{ background: "linear-gradient(135deg, #4CBB17, #228B22)" }}
       >
-        <div className="container mx-auto">
+        <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Ready to Sell Smarter?</h2>
-          <p className="text-xl opacity-90 max-w-3xl mx-auto mb-8">
+          <p className="text-lg md:text-xl opacity-90 max-w-3xl mx-auto mb-8 px-4">
             Coming Soon: Be Among the first sellers to experience AI-powered listing and buyer matching.
           </p>
           <Button
             size="lg"
-            className="bg-white text-accent hover:bg-gray-100 text-xl px-12 py-6 rounded-full font-bold transition-transform hover:scale-105"
+            className="bg-white text-accent hover:bg-gray-100 text-base md:text-xl px-8 md:px-12 py-6 rounded-full font-bold transition-transform hover:scale-105 w-full md:w-auto max-w-md mx-auto"
             onClick={showSignup}
           >
             Get Early Access When We Launch - It's Free
           </Button>
-          <p className="mt-6 opacity-80">No spam, ever. Just updates on launch date and early access.</p>
+          <p className="mt-6 opacity-80 text-sm md:text-base px-4">
+            No spam, ever. Just updates on launch date and early access.
+          </p>
         </div>
       </section>
 
