@@ -67,26 +67,35 @@ export default function OurStoryPage() {
 
           <div className="mt-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold mb-8" style={{ color: "#000080" }}>
-              Founder Connie's Why
+              Connie's Story
             </h2>
 
             <div className="prose prose-lg md:prose-xl mx-auto">
               <div className="text-left space-y-6">
                 <p className="text-lg md:text-xl font-sans leading-relaxed text-foreground">
-                  My love for secondhand started in 2006 when my youngest son asked me to sell his old cleats on eBay.
-                  When they sold, I was so excited that I called his school so he could hear the news right away. Soon
-                  he had me selling all my Barbies, and I discovered how much I loved finding the right buyer for the
-                  right item.
+                  My love for secondhand started in 2006 when my youngest son, then 8, asked me to sell his cleats on
+                  eBay. I couldn't believe that someone would buy his used, albeit Mom-cleaned, shoes. When they sold, I
+                  was so excited that I called school, begging the administrator to get the message to him in class.
+                  Soon, he had me researching and subsequently selling my childhood Barbies, since my sons quickly
+                  became heavily invested in selling almost anything in the house, and they had no use for my old dolls.
+                  As a disclaimer, selling is in my DNA, as I had a "restaurant" in my playhouse when I was 5. It didn't
+                  matter that every item on my fancy menu returned a piece of Bazooka gum or an Oreo.
                 </p>
                 <p className="text-lg md:text-xl font-sans leading-relaxed text-foreground">
-                  Years later, after moving to a small town during Covid, I began volunteering at my church thrift shop.
-                  I saw patterns everywhere — the kinds of donations that came in, what sold right away, and how payday
-                  weeks, moves, and even local news shaped what people bought.
+                  Many years later, after moving to a small town during COVID, I began volunteering at my church thrift
+                  shop. I started noticing patterns again — what sells, when people buy, and how moves, downsizing, and
+                  even local news shape what comes through the door. Like many thrift shops, ours gives back — every
+                  dollar we raise goes straight into the food pantry, which now feeds more than 50 families in our
+                  community. I, too, am a buyer and have discovered the magic and the thrill of the find. The "mascot"
+                  for ThriftShopper is a rhinestone-rimmed belt with a picture of Dorothy – and company – on the
+                  yellow-brick road. Never, in my wildest imagination, would I have gone searching for this belt. Nor
+                  did I imagine the number of times I would be stopped while wearing it.
                 </p>
                 <p className="text-lg md:text-xl font-sans leading-relaxed text-foreground">
-                  For me, every item carries a story, and every sale connects people in unexpected ways. ThriftShopper
-                  grew out of that — a way to make those connections easier, to help people find what they love, and to
-                  give every good thing a second life.
+                  I know we all get our blood flowing in dusty attics and the way-back shelves, imagining the story
+                  behind a vintage cookie jar or a well-loved book. I hope to keep that magic alive — to bring the joy
+                  of discovery online, while also creating space for people to share the stories behind the things they
+                  find. There's so much possibility here, and I can't wait to see what we'll discover together.
                 </p>
               </div>
             </div>
