@@ -73,6 +73,9 @@ export default function ForSellersPage() {
               <br />
               Stop Guessing.
             </h1>
+            <p className="text-xl md:text-2xl mb-6 max-w-3xl mx-auto text-pretty opacity-95 font-semibold">
+              Easy-to-Use, No Hidden Fees, No Jargon.
+            </p>
             <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto text-pretty opacity-95">
               ThriftShopper's AI instantly identifies your items, researches market prices, writes listings, and finds
               buyers already looking for exactly what you have.

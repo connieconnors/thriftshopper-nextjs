@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export default function HomePage() {
   const airtableFormUrl = process.env.NEXT_PUBLIC_AIRTABLE_FORM_URL || "#"
+  const contactFormUrl = process.env.NEXT_PUBLIC_CONTACT_FORM_URL || "#"
 
   return (
     <div className="min-h-screen bg-background">
@@ -59,14 +60,47 @@ export default function HomePage() {
               the magic of discovery<span className="text-xs md:text-sm align-super">™</span>
             </p>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Be among the first to experience a revolutionary platform that connects buyers and sellers through
-              intelligent matching and predictive discovery.
+              Be among the first to experience a revolutionary, easy-to-use platform that connects buyers and sellers
+              through intelligent matching and predictive discovery.
             </p>
             <div className="flex flex-col items-center gap-4">
-              <Button size="lg" className="text-lg px-8 py-6" onClick={() => window.open(airtableFormUrl, "_blank")}>
+              <a
+                href={airtableFormUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  backgroundColor: "#000080",
+                  color: "#fff",
+                  padding: "0.75rem 1.5rem",
+                  borderRadius: "6px",
+                  fontFamily: "'Source Sans Pro', sans-serif",
+                  fontWeight: 600,
+                  textDecoration: "none",
+                  display: "inline-block",
+                }}
+              >
                 Join the Network
-              </Button>
-              <p className="text-sm text-muted-foreground">*It's free to join</p>
+              </a>
+              <p
+                style={{
+                  marginTop: "0.5rem",
+                  fontSize: "0.85rem",
+                  color: "#555",
+                  fontFamily: "'Source Sans Pro', sans-serif",
+                }}
+              >
+                <em>It's free to join!</em>
+                <br />
+                <br />
+                We never sell or share your personal data.{" "}
+                <a href="/privacy" style={{ color: "#000080", textDecoration: "underline" }}>
+                  Privacy Policy
+                </a>{" "}
+                ·{" "}
+                <a href="/terms" style={{ color: "#000080", textDecoration: "underline" }}>
+                  Terms
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -75,7 +109,9 @@ export default function HomePage() {
       {/* How It Works */}
       <section className="py-11 px-4 bg-muted/30">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-serif font-bold text-center mb-8">How ThriftShopper Works</h2>
+          <h2 className="text-4xl font-serif font-bold text-center mb-8" style={{ color: "#000080" }}>
+            How ThriftShopper Works
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card>
               <CardContent className="p-8 text-center">
@@ -151,10 +187,7 @@ export default function HomePage() {
                 Why & How it Works
               </a>
               <button
-                onClick={() => {
-                  const contactFormUrl = process.env.NEXT_PUBLIC_CONTACT_FORM_URL || "#"
-                  window.open(contactFormUrl, "_blank")
-                }}
+                onClick={() => window.open(contactFormUrl, "_blank")}
                 className="hover:opacity-80 transition-opacity cursor-pointer"
               >
                 Contact
