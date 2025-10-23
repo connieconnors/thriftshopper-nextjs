@@ -3,6 +3,8 @@
 import { Button } from "@/components/ui/button"
 
 export default function OurStoryPage() {
+  const airtableFormUrl = process.env.NEXT_PUBLIC_AIRTABLE_FORM_URL || "#"
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -21,6 +23,12 @@ export default function OurStoryPage() {
             </p>
           </div>
           <div className="flex items-center gap-2 md:gap-4 flex-shrink-0">
+            <button
+              className="text-sm md:text-base px-3 md:px-4 hover:opacity-80 transition-opacity"
+              onClick={() => (window.location.href = "/")}
+            >
+              Home
+            </button>
             <Button
               variant="outline"
               size="sm"
@@ -38,12 +46,13 @@ export default function OurStoryPage() {
               For Buyers
             </Button>
             <Button
-              variant="outline"
               size="sm"
-              className="text-sm md:text-base px-3 md:px-4 bg-transparent border-2"
-              style={{ borderColor: "#000080", color: "#000080" }}
+              className="text-sm md:text-base px-3 md:px-4"
+              style={{ backgroundColor: "#000080" }}
+              onClick={() => window.open(airtableFormUrl, "_blank")}
             >
-              Our Story
+              <span className="hidden sm:inline">Join the Network</span>
+              <span className="sm:hidden">Join</span>
             </Button>
           </div>
         </div>

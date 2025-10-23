@@ -1,6 +1,10 @@
 "use client"
 
+import { Button } from "@/components/ui/button"
+
 export default function AboutPage() {
+  const airtableFormUrl = process.env.NEXT_PUBLIC_AIRTABLE_FORM_URL || "#"
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -17,6 +21,35 @@ export default function AboutPage() {
             <p className="text-xs font-sans hidden sm:block" style={{ color: "#DAA520" }}>
               the magic of predictive discovery
             </p>
+          </div>
+          <div className="flex items-center gap-2 md:gap-4 flex-shrink-0">
+            <button
+              className="text-sm md:text-base px-3 md:px-4 hover:opacity-80 transition-opacity"
+              onClick={() => (window.location.href = "/")}
+            >
+              Home
+            </button>
+            <button
+              className="text-sm md:text-base px-3 md:px-4 hover:opacity-80 transition-opacity"
+              onClick={() => (window.location.href = "/for-sellers")}
+            >
+              For Sellers
+            </button>
+            <button
+              className="text-sm md:text-base px-3 md:px-4 hover:opacity-80 transition-opacity"
+              onClick={() => (window.location.href = "/for-buyers")}
+            >
+              For Buyers
+            </button>
+            <Button
+              size="sm"
+              className="text-sm md:text-base px-3 md:px-4"
+              style={{ backgroundColor: "#000080" }}
+              onClick={() => window.open(airtableFormUrl, "_blank")}
+            >
+              <span className="hidden sm:inline">Join the Network</span>
+              <span className="sm:hidden">Join</span>
+            </Button>
           </div>
         </div>
       </header>

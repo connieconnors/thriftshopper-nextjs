@@ -53,6 +53,15 @@ export default function ForSellersPage() {
             >
               Our Story
             </Button>
+            <Button
+              size="sm"
+              className="text-sm md:text-base px-3 md:px-4"
+              style={{ backgroundColor: "#000080" }}
+              onClick={() => window.open(airtableFormUrl, "_blank")}
+            >
+              <span className="hidden sm:inline">Join the Network</span>
+              <span className="sm:hidden">Join</span>
+            </Button>
           </div>
         </div>
       </header>
