@@ -90,16 +90,6 @@ export default function HomePage() {
                 }}
               >
                 <em>It's free to join!</em>
-                <br />
-                <br />
-                We never sell or share your personal data.{" "}
-                <a href="/privacy" style={{ color: "#000080", textDecoration: "underline" }}>
-                  Privacy Policy
-                </a>{" "}
-                ·{" "}
-                <a href="/terms" style={{ color: "#000080", textDecoration: "underline" }}>
-                  Terms
-                </a>
               </p>
             </div>
           </div>
