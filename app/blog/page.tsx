@@ -23,6 +23,15 @@ const blogPosts = [
       "I can understand why so many thrifters post 'Does anyone know what this is?' I had to figure out how to assemble this item as I found pieces in bubble wrap and not all in one place. It's really quite unique and beautiful but I'm not sure if you put it in a window, or hang it? And I haven't plugged it in yet. Any interest? Let me know!",
     keywords: ["thrift shop", "oddities", "vintage", "religious items", "holiday", "ornaments"],
   },
+  {
+    id: 3,
+    title: "Giving Thrift Shops",
+    date: "October 23, 2025",
+    image: "/connie-food-pantry.jpg",
+    description:
+      "I volunteer at my church thrift shop and we use the proceeds to help purchase food for our food pantry. We offer food to more than 75 families weekly. Often times you'll find real treasures in charitable shops, sometimes buried in back corners. I'll soon post a video tour of our church shop to give you an idea. For many charitable shops, prices are negotiable but take note of where your dollars are going. This is especially true for your donations: think, is this something a shop can sell?",
+    keywords: ["charity", "thrift shop", "food pantry", "donations", "community", "volunteer"],
+  },
 ]
 
 export default function BlogPage() {
