@@ -73,6 +73,13 @@ export default function ConfirmedPage() {
               >
                 For Sellers
               </a>
+              <a
+                href="/blog"
+                className="inline-block px-6 py-3 border-2 rounded-lg font-semibold transition-colors"
+                style={{ borderColor: "#000080", color: "#000080" }}
+              >
+                Blog
+              </a>
             </div>
           </div>
         </div>
