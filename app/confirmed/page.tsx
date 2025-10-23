@@ -39,14 +39,13 @@ export default function ConfirmedPage() {
 
         <div className="max-w-2xl mx-auto space-y-6 text-lg leading-relaxed">
           <p>
-            Thank you for joining ThriftShopper AI. You're now part of an exclusive community that will experience the
-            future of thrift shopping.
+            Thank you for joining ThriftShopper AI. We'll keep you updated on our progress and let you know as soon as
+            we're ready to launch.
           </p>
 
           <p>
-            We'll keep you updated on our progress and let you know as soon as we're ready to launch. Get ready for a
-            revolutionary, easy-to-use platform that connects buyers and sellers through intelligent matching and
-            predictive discovery.
+            Get ready for a revolutionary, easy-to-use platform that connects buyers and sellers through intelligent
+            matching and predictive discovery.
           </p>
 
           <div className="mt-12 pt-8 border-t">
