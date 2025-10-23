@@ -12,7 +12,7 @@ export default function ConfirmedPage() {
               className="text-lg md:text-2xl font-serif font-bold truncate hover:opacity-80"
               style={{ color: "#000080" }}
             >
-              ThriftShopper AI
+              ThriftShopper
             </a>
             <p className="text-xs font-sans hidden sm:block" style={{ color: "#DAA520" }}>
               the magic of predictive discovery
@@ -39,7 +39,7 @@ export default function ConfirmedPage() {
 
         <div className="max-w-2xl mx-auto space-y-6 text-lg leading-relaxed">
           <p>
-            Thank you for joining ThriftShopper AI. We'll keep you updated on our progress and let you know as soon as
+            Thank you for joining ThriftShopper. We'll keep you updated on our progress and let you know as soon as
             we're ready to launch.
           </p>
 
