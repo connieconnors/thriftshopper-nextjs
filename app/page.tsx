@@ -182,6 +182,9 @@ export default function HomePage() {
               >
                 Contact
               </button>
+              <a href="/ai-environment" className="hover:opacity-80 transition-opacity">
+                AI and Environment
+              </a>
               <a href="/privacy" className="hover:opacity-80 transition-opacity">
                 Privacy
               </a>
