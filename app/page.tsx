@@ -45,6 +45,14 @@ export default function HomePage() {
             >
               Our Story
             </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              className="text-sm md:text-base px-3 md:px-4 bg-transparent"
+              onClick={() => (window.location.href = "/blog")}
+            >
+              Blog
+            </Button>
           </div>
         </div>
       </header>
@@ -175,6 +183,9 @@ export default function HomePage() {
               </a>
               <a href="/how-it-works" className="hover:opacity-80 transition-opacity">
                 Why & How it Works
+              </a>
+              <a href="/blog" className="hover:opacity-80 transition-opacity">
+                Blog
               </a>
               <button
                 onClick={() => window.open(contactFormUrl, "_blank")}
